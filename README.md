@@ -1,2 +1,2 @@
-# terraform-aws-elasticache
+# Terraform-AWS-Elasticache
 Terrafrom module for AWS Elasticache 
