@@ -3,6 +3,7 @@ This module is useful to create aws elasticache redis/memcached clusters.
 
 ## Usage
 
+```
 module "redis" {
   source = "../../../modules/elasticache"
   cluster_id = "detrack"
@@ -13,6 +14,7 @@ module "redis" {
   num_cache_nodes = 1
   parameter_group_name = "default.redis3.2"
 }
+```
 
 
 # License
