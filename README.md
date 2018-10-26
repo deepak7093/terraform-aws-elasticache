@@ -6,7 +6,7 @@ This module is useful to create aws elasticache redis/memcached clusters.
 ```
 module "redis" {
   source = "../../../modules/elasticache"
-  cluster_id = "detrack"
+  cluster_id = "test-cluster"
   engine = "redis"
   port = 6379
   node_type = "cache.t2.micro"
